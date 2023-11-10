@@ -1,4 +1,4 @@
-Tablero
+Home
 Gestionar Productos [crud]
 Consultar Inventario [productos disponibles (consulta)]
 Consultar Caja Chica [Efectivo]

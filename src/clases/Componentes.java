@@ -47,50 +47,23 @@ public class Componentes {
 
     public  static String dash = "Dashboard "+Globales.nombreFarmacia;
 
-    public static String tablero = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 18px;'>TABLERO</span></div></html>";
-    public static String productos = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>GESTIONAR</span><br>\n" +
-            "<span style='font-size: 18px;'>PRODUCTOS</span></div></html>";
+    public static String home = "   HOME";
+    public static String productos = "   PRODUCTOS";
     
-    public static String inventario = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONSULTAR</span><br>\n" +
-            "<span style='font-size: 18px;'>INVENTARIO</span></div></html>";
+    public static String inventario = "   INVENTARIO";
     
-    public static String caja = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONSULTAR</span><br>\n" +
-            "<span style='font-size: 18px;'>CAJA</span></div></html>";
+    public static String caja = "   CAJA";
     
-    public static String facturas = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>GESTIONAR</span><br>\n" +
-            "<span style='font-size: 18px;'>FACTURAS</span></div></html>";
+    public static String facturas = "   FACTURAS";
     
-    public static String proveedores = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>GESTIONAR</span><br>\n" +
-            "<span style='font-size: 18px;'>PROVEEDORES</span></div></html>";
+    public static String proveedores = "   PROVEEDORES";
     
-    public static String empleados = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>GESTIONAR</span><br>\n" +
-            "<span style='font-size: 18px;'>EMPLEADOS</span></div></html>";
+    public static String empleados = "   EMPLEADOS";
     
-    public static String ventas = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONSULTAR</span><br>\n" +
-            "<span style='font-size: 18px;'>VENTAS</span></div></html>";
+    public static String ventas = "REALIZAR VENTA";
     
-    public static String reportes = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONSULTAR</span><br>\n" +
-            "<span style='font-size: 18px;'>REPORTES</span></div></html>";
+    public static String reportes = "   REPORTES";
     
-    public static String recordatorios = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONSULTAR</span><br>\n" +
-            "<span style='font-size: 18px;'>RECORDATORIOS</span></div></html>";
-    
-    public static String usuario = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>CONFIGURACIÓN DE</span><br>\n" +
-            "<span style='font-size: 18px;'>USUARIO</span></div></html>";
-    public static String compra = "<html><div style='text-align: center;'>\n" +
-            "<span style='font-size: 14px;'>REALIZAR</span><br>\n" +
-            "<span style='font-size: 18px;'>COMPRA</span></div></html>";
-
-
+    public static String recordatorios = "   RECORDATORIOS";
+    public static String configuracion = "   CONFIGURACIÓN";
 }

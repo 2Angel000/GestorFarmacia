@@ -44,6 +44,20 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel2 = new fondoPanel()
         ;
         jPanel3 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        txtnombreF = new javax.swing.JLabel();
+        btnHome = new javax.swing.JButton();
+        btnProductos = new javax.swing.JButton();
+        btnCaja = new javax.swing.JButton();
+        btnFacturas = new javax.swing.JButton();
+        btnProveedores = new javax.swing.JButton();
+        btnEmpleados = new javax.swing.JButton();
+        btnInventario = new javax.swing.JButton();
+        btnReportes = new javax.swing.JButton();
+        btnRecordatorios = new javax.swing.JButton();
+        btnConfiguracion = new javax.swing.JButton();
+        btnVentas = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
@@ -56,7 +70,7 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1703, Short.MAX_VALUE)
+            .addGap(0, 1693, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -65,15 +79,125 @@ public class Dashboard extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(0, 51, 102));
 
+        jLabel1.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("FARMACIA");
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/cruz.png"))); // NOI18N
+
+        txtnombreF.setFont(new java.awt.Font("Arial", 1, 36)); // NOI18N
+        txtnombreF.setForeground(new java.awt.Color(255, 255, 255));
+        txtnombreF.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        txtnombreF.setText("jLabel3");
+
+        btnHome.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnHome.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/home24.png"))); // NOI18N
+        btnHome.setText("jButton1");
+        btnHome.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnProductos.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnProductos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/productos24.png"))); // NOI18N
+        btnProductos.setText("jButton1");
+        btnProductos.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnCaja.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnCaja.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/caja24.png"))); // NOI18N
+        btnCaja.setText("jButton3");
+        btnCaja.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnFacturas.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnFacturas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/factura24.png"))); // NOI18N
+        btnFacturas.setText("jButton4");
+        btnFacturas.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnProveedores.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnProveedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/proveedor24.png"))); // NOI18N
+        btnProveedores.setText("jButton5");
+        btnProveedores.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnEmpleados.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnEmpleados.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/empleado24.png"))); // NOI18N
+        btnEmpleados.setText("jButton6");
+        btnEmpleados.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnInventario.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnInventario.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/inventario24.png"))); // NOI18N
+        btnInventario.setText("jButton7");
+        btnInventario.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnReportes.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnReportes.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/reportes24.png"))); // NOI18N
+        btnReportes.setText("jButton8");
+        btnReportes.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnRecordatorios.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnRecordatorios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/recordatorio24.png"))); // NOI18N
+        btnRecordatorios.setText("jButton9");
+        btnRecordatorios.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnConfiguracion.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnConfiguracion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/configuracion24.png"))); // NOI18N
+        btnConfiguracion.setText("jButton10");
+        btnConfiguracion.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
+        btnVentas.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
+        btnVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/ventas24.png"))); // NOI18N
+        btnVentas.setText("jButton11");
+        btnVentas.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 238, Short.MAX_VALUE)
+            .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(txtnombreF, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnHome, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnProductos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnCaja, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnFacturas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnProveedores, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnEmpleados, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnInventario, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnReportes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnRecordatorios, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnConfiguracion, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(btnVentas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1060, Short.MAX_VALUE)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(txtnombreF, javax.swing.GroupLayout.PREFERRED_SIZE, 54, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(89, 89, 89)
+                .addComponent(btnHome, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnProductos, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btnCaja, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnFacturas, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnProveedores, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnEmpleados, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnInventario, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnReportes, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnRecordatorios, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnConfiguracion, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btnVentas, javax.swing.GroupLayout.PREFERRED_SIZE, 138, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(71, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -168,14 +292,38 @@ public class Dashboard extends javax.swing.JFrame {
         }
     }
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCaja;
+    private javax.swing.JButton btnConfiguracion;
+    private javax.swing.JButton btnEmpleados;
+    private javax.swing.JButton btnFacturas;
+    private javax.swing.JButton btnHome;
+    private javax.swing.JButton btnInventario;
+    private javax.swing.JButton btnProductos;
+    private javax.swing.JButton btnProveedores;
+    private javax.swing.JButton btnRecordatorios;
+    private javax.swing.JButton btnReportes;
+    private javax.swing.JButton btnVentas;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JLabel txtnombreF;
     // End of variables declaration//GEN-END:variables
 
     public void asignarNombresBtn() {
-        
-
+        txtnombreF.setText(Globales.farmacia);
+        btnRecordatorios.setText(Componentes.recordatorios);
+        btnReportes.setText(Componentes.reportes);
+        btnVentas.setText(Componentes.ventas);
+        btnCaja.setText(Componentes.caja);
+        btnProveedores.setText(Componentes.proveedores);
+        btnEmpleados.setText(Componentes.empleados);
+        btnHome.setText(Componentes.home);
+        btnConfiguracion.setText(Componentes.configuracion);
+        btnProductos.setText(Componentes.productos);
+        btnInventario.setText(Componentes.inventario);
+        btnFacturas.setText(Componentes.facturas);
     }
 
 }
