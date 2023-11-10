@@ -65,5 +65,6 @@ public class Componentes {
     public static String reportes = "   REPORTES";
     
     public static String recordatorios = "   RECORDATORIOS";
+    
     public static String configuracion = "   CONFIGURACIÓN";
 }

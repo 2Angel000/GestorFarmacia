@@ -1,0 +1,11 @@
+Home
+Gestionar Productos [crud]
+Consultar Inventario [productos disponibles (consulta)]
+Consultar Caja Chica [Efectivo]
+Gestionar Facturas [para ventas]
+Gestionar Proveedores [Crud]
+Gestionar Empleados [crud + acceso](solo admin)
+Consultar Ventas [Crud (consulta)]
+Consultar Reporte de ventas (diario/semanal)
+Recordatorios (CRUD)
+Configuración (Usuarios)
