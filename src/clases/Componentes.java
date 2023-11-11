@@ -67,4 +67,5 @@ public class Componentes {
     public static String recordatorios = "   RECORDATORIOS";
     
     public static String configuracion = "   CONFIGURACIÓN";
+
 }

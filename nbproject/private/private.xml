@@ -3,8 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/consulta/Reportes.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Productos.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/consulta/Ventas.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Configuración.java</file>
             <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/clases/Componentes.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Proveedores.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/consulta/Caja.java</file>
             <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/Dashboard.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Facturas.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/clases/Globales.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Empleados.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/cruds/Recordatorios.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/validaciones/verificarEmpleados.java</file>
+            <file>file:/C:/Users/mcsmo/OneDrive/Documentos/NetBeansProjects/GestorFarmacia/src/interfaces/consulta/Inventario.java</file>
         </group>
     </open-files>
 </project-private>
